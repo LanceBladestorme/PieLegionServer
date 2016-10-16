@@ -1,0 +1,7 @@
+daemon:
+    name: Event Logger
+
+roles:
+    - type: eventlogger
+      bind: 25.10.246.134:7198
+      output: ../logs/events-%y%m%d_%H%M%S.log
