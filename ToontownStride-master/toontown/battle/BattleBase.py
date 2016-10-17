@@ -56,7 +56,7 @@ TOON_FIRE_DELAY = 0.5
 TOON_FIRE_SUIT_DELAY = 1.0
 REWARD_TIMEOUT = 120
 FLOOR_REWARD_TIMEOUT = 4
-BUILDING_REWARD_TIMEOUT = 300
+BUILDING_REWARD_TIMEOUT = 2000
 CLIENT_INPUT_TIMEOUT = config.GetFloat('battle-input-timeout', TTLocalizer.BBbattleInputTimeout)
 
 def levelAffectsGroup(track, level):
