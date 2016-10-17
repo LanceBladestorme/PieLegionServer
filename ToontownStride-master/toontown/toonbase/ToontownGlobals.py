@@ -546,8 +546,7 @@ suitIndex = {
 'ms' : 28,
 'tf' : 29,
 'm' : 30,
-'mh' : 31,
-'smp' : 32
+'mh' : 31
 }
 BossCogRollSpeed = 7.5
 BossCogTurnSpeed = 20
@@ -588,14 +587,14 @@ BossCogAttackTimes = {BossCogElectricFence: 0,
  BossCogGearDirectedAttack: 4.84,
  BossCogOvertimeAttack: 5}
 BossCogDamageLevels = {BossCogElectricFence: 1,
- BossCogSwatLeft: 10,
- BossCogSwatRight: 10,
- BossCogAreaAttack: 20,
- BossCogFrontAttack: 10,
- BossCogRecoverDizzyAttack: 10,
- BossCogDirectedAttack: 10,
- BossCogStrafeAttack: 15,
- BossCogGoonZap: 10,
+ BossCogSwatLeft: 5,
+ BossCogSwatRight: 5,
+ BossCogAreaAttack: 10,
+ BossCogFrontAttack: 3,
+ BossCogRecoverDizzyAttack: 3,
+ BossCogDirectedAttack: 3,
+ BossCogStrafeAttack: 2,
+ BossCogGoonZap: 5,
  BossCogSlowDirectedAttack: 10,
  BossCogGavelStomp: 50,
  BossCogGavelHandle: 10,

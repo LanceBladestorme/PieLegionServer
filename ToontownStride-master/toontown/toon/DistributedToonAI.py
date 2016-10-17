@@ -4319,7 +4319,7 @@ def allSummons():
     target.b_setCogSummonsEarned(allSummons)
     return 'Lots of summons!'
 
-@magicWord(category=CATEGORY_SYSTEM_ADMINISTRATOR, types=[str])
+@magicWord(category=CATEGORY_PROGRAMMER, types=[str])
 def maxToon(missingTrack=None):
     """
     Max the target's stats for end-level gameplay.
@@ -4373,7 +4373,7 @@ def maxToon(missingTrack=None):
             CogDisguiseGlobals.PartsPerSuitBitmasks[3]   # Sellbot
         ]
     )
-    target.b_setCogLevels([50] * 4)
+    target.b_setCogLevels([49] * 4)
     target.b_setCogTypes([7, 7, 7, 7])
 
     # Max their Cog gallery:

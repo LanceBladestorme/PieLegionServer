@@ -1,5 +1,5 @@
 # Window settings:
-window-title Pie Legion Server Version 1.1
+window-title Pie Legion Server Version 1.0
 win-origin -1 -1
 icon-filename phase_3/etc/icon.ico
 cursor-filename phase_3/etc/toonmono.cur
@@ -83,7 +83,7 @@ want-lawbot-headquarters #t
 want-bossbot-headquarters #t
 
 # Cog battles:
-base-xp-multiplier 3.0
+base-xp-multiplier 1.0
 
 # SOS toons:
 sos-card-reward 2
