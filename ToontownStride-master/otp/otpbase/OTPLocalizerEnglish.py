@@ -432,6 +432,10 @@ SuitFaceoffTaunts = {'b': ["Sucks to be near me!",
         "Let's get on with the show.",
         "There's no business like it!",
         "I hope you don't forget your lines."],
+ 'smp': ["Who called Hitler?",
+	"I think you need a little Shimprovising."
+        "My Shimmetry in attacks makes it impossible for you to win!"
+        "Shimmy Shimmy!"],
  'nc': ['Looks like your number is up.',
         'I hope you prefer extra crunchy.',
         "Now you're really in a crunch.",
