@@ -3086,7 +3086,7 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
                 flags = SuitInvasionGlobals.IFWaiter
             else:
                 flags = 0
-            returnCode = self.doCogInvasion(suitDeptIndex, suitTypeIndex, flags)
+            returnCode = self.doCogInvasion(suitIndex, flags)
         if returnCode:
             if returnCode[0] == 'success':
                 self.air.writeServerEvent('cogSummoned', self.doId, '%s|%s|%s' % (type, suitIndex, self.zoneId))
@@ -4965,28 +4965,36 @@ def track(command, track, value=None):
         return 'Set the experience of the %s track to: %d!' % (track, value)
     return 'Invalid command.'
 
-@magicWord(category=CATEGORY_COMMUNITY_MANAGER, types=[str, str])
-def suit(command, suitName = 'f'):
+@magicWord(category=CATEGORY_ADMINISTRATOR, types=[str, int, int, int])
+def suit(command, suitIndex, cogType=0, flags=0):
     invoker = spellbook.getInvoker()
     command = command.lower()
-    if suitName not in SuitDNA.suitHeadTypes:
-        return 'Invalid suit name: ' + suitName
-    suitFullName = SuitBattleGlobals.SuitAttributes[suitName]['name']
     if command == 'spawn':
-        returnCode = invoker.doSummonSingleCog(SuitDNA.suitHeadTypes.index(suitName))
+        returnCode = invoker.doSummonSingleCog(int(suitIndex))
         if returnCode[0] == 'success':
-            return 'Successfully spawned: ' + suitFullName
-        return "Couldn't spawn: " + suitFullName
+            return 'Successfully spawned suit with index {0}!'.format(suitIndex)
+        return "Couldn't spawn suit with index {0}.".format(suitIndex)
     elif command == 'building':
-        returnCode = invoker.doBuildingTakeover(SuitDNA.suitHeadTypes.index(suitName))
+        returnCode = invoker.doBuildingTakeover(suitIndex)
         if returnCode[0] == 'success':
-            return 'Successfully spawned a Cog building with: ' + suitFullName
-        return "Couldn't spawn a Cog building with: " + suitFullName
+            return 'Successfully spawned building with index {0}!'.format(suitIndex)
+        return "Couldn't spawn building with index {0}.".format(suitIndex)
     elif command == 'nobuilding':
         returnCode = invoker.doToonBuildingTakeover()
         if returnCode[0] == 'success':
             return 'Toons took over the cog building!'
-        return "Couldn't allow toons to take over cog building because " + returnCode[1]
+    elif command == 'do':
+        returnCode = invoker.doCogdoTakeOver(suitIndex, 1)
+        if returnCode[0] == 'success':
+            return 'Successfully spawned Cogdo with difficulty {0}!'.format(suitIndex)
+        return "Couldn't spawn Cogdo with difficulty {0}.".format(suitIndex)
+    elif command == 'invasion':
+        returnCode = invoker.doCogInvasion(suitIndex, cogType, flags)
+        return returnCode
+    elif command == 'invasionend':
+        returnCode = 'Ending Invasion..'
+        simbase.air.suitInvasionManager.stopInvasion()
+        return returnCode
     else:
         return 'Invalid command.'
 
