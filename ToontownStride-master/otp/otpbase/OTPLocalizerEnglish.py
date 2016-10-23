@@ -141,8 +141,8 @@ CRToontownUnavailable = 'The server appears to be temporarily unavailable, still
 CRToontownUnavailableCancel = lCancel
 CRNameCongratulations = 'CONGRATULATIONS!!'
 CRNameAccepted = 'Your name has been\napproved by the Toon Council.\n\nFrom this day forth\nyou will be named\n"%s"'
-CRMaintenanceCountdownMessage = 'Attention Toons! Toontown Stride will be going down for maintenance in %d minutes.'
-CRMaintenanceMessage = 'Attention Toons! Toontown Stride is now going down for maintenance.'
+CRMaintenanceCountdownMessage = 'Attention Toons! Toontown Pie Legion will be going down for maintenance in %d minutes.'
+CRMaintenanceMessage = 'Attention Toons! Toontown Pie Legion is now going down for maintenance.'
 AfkForceAcknowledgeMessage = 'Your toon got sleepy and went to bed.'
 CREnteringToontown = 'Entering...'
 DialogSpecial = 'ooo'
@@ -780,11 +780,11 @@ SpeedChatStaticTextToontown = {100: 'Hi!',
  602: 'Noice!',
  603: 'You are a genius!',
  700: 'Were you a part of the Pokemon Clan?',
- 701: 'Do a face reveal!',
+ 701: 'Nick failed another Nuzlocke? No surprise there! >:-)',
  702: 'Ethan said Kappa?',
  703: 'What does the G stand for?',
  704: 'Will there be a door giveaway?',
- 705: 'I like this game!',
+ 705: "I'd like some exotic butters!",
  800: 'Did Ziggy get kicked out of discord again?',
  801: 'My bad?',
  802: "Sorry, I'm busy fighting Cogs!",

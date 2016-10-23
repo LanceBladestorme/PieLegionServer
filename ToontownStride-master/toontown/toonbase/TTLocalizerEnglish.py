@@ -8153,7 +8153,7 @@ BossbotRTMaxed = '\x07I see that you have a level %s Cog Suit. Very impressive!\
 BossbotRTLastPromotion = "\x07Wow, you've reached level %s on your Cog Suit!\x07Cogs don't get promoted higher than that.\x07You can't upgrade your Cog Suit anymore, but you can certainly keep working for the Resistance!"
 BossRTKeyReward = '\x07By the way, thanks to your exquisite performance, the Toon Council has decided to offer to you a Cog Nation Crate key!\x07Using this, you will be able to open the crates you have earned in the cog factories.'
 GolfAreaAttackTaunt = "FORE pete's sake! It was only one mistake!"
-OvertimeAttackTaunts = ["It's time to take things up a notch!", "Hardcore mode initialized!"]
+OvertimeAttackTaunts = ["It's time to take things up a notch!", "Hardcore MLG mode initialized!"]
 ElevatorBossBotBoss = 'Bossbot Clubhouse'
 ElevatorBossBotCourse0 = 'The Front Three'
 ElevatorBossBotCourse1 = 'The Middle Six'
@@ -8545,66 +8545,66 @@ NametagStyleLabel = 'Nametag Style:'
 FishingPoleLabel = 'Fishing Rod:'
 
 BossLocations = {
- 'c': 'Bossbot Clubhouse\nBanquet',
+ 'c': 'Modbot Clubhouse\nSinister Vengeance Banquet',
  'l': "Altbot Courthouse\nBumpy Bumblebehr's Trial",
- 'm': 'Cashbot Treasury Vault',
+ 'm': 'Piebot Pietoken Vault',
  's': 'Shimbot Towers\nRooftop'
 }
 SendCogBossTaunts = {
  's': [
-  "We're going door to door to give you an dedious offer.",
-  "It's time for your estimated cost.",
-  'You toons never learn when to snatch up a great deal.',
-  "Call now and we'll reduce your laff, absolutely free.",
-  'Sell, sell, sell!',
-  'Let us Sellbots give you a helping hand.',
-  'The deal has only just begun.',
-  'Going sad already? How about we settle a retirement plan.',
-  'Get them! Get them all!'
+  "Have I ever told you the story of... ramble ramble ramble",
+  "Hehe if you thinks that's funny let me tell ya ... ramble ramble ramble",
+  'Bots of the Iep Nation you unite!',
+  "Pssst, hey Nick, can I have mod status in the Pie Nation?",
+  'Ramble, Ramble, Ramble!',
+  '-INSERT OFF TOPIC RAMBLING HERE-',
+  'Time zones are a real killer!',
+  'Hey, can I have some exotic butters?',
+  'Get them! Get ramble them all to boredom!'
  ],
  'm': [
-  "Let's show you how money talks.",
-  "We'll bring you into bankruptcy.",
+  "I will bring an end to all bankheists!",
+  "Wait... if you toons brought guns... why haven't you used them?!",
   'The Jellybean is only worth a tenth of the cogbuck!',
-  'Hey! Those cogs cost me money!',
-  "I'll put you on the next train back to the playground!",
-  'You toons are wasting so much of your currency fighting us.',
-  'It seems Toontown has high amounts of debt to the Cogs.',
-  "Invest in Cogbucks, it'll fix Toontown right up!",
-  'Do toons understand the value of money?'
+  'Hey stop destroying these bots and just die already! Making these Tokenbots costs a fortune in Pie Tokens!',
+  "I'll bankrupt you so hard, you'll have to sell me you doodle just to recover!",
+  "You won't be TOKEN from me today!"
+  'Pie Tokens make the world go around',
+  "When I say Hillshire, you say Farm! Hillshire! Farm!!! GO MEAT!!!!!",
+  "Hehe I'll get you my pretty toons and your little fortune too!"
  ],
  'l': [
-  'Order in the court!',
-  'The defendant is appearing to be proven guilty.',
-  'Justice is important to keep a stable society.',
-  'Toontown will be full of corruption and greed.',
-  'Toons do not understand the importance of the Cog order.',
-  'The state of your actions will prove you toons guilty.',
-  "Bah! Don't you tell me how to run a trial!",
-  'My decision will state what to legally do to you Toons.',
-  'This blindfold protects me from the horrible corruption!'
+  'Altbots are the keemstars of the tooniverse',
+  "Things aren't looking good for you my little toon friend!",
+  "What on earth are talking about? My decision boards are never rigged!",
+  "Don't blame me, I only enforce the code of conduct!",
+  "I'm gonna time you all out!",
+  "Oh shut up, Lucky. You've already put these guys though enough trouble as it is!",
+  "No, I do not accept Pie Token bribes... or real money... well I need to consider the second one. How much?",
+  'My decisions can never be appealed!',
+  "In case you are wondering, I'm only wearing this blindfold because my pet, SuperFunkyDealer, scatched both my eyes this morning!!"
  ]
 }
-VPRampMessage = "I don't have time for this, I'm late for my meeting!"
+VPRampMessage = "Woah looks like you are trying to RAMP things up at the moment!"
 VPDeathTaunt = "WAAAH! YOU HAVEN'T SEEN THE LAST OF ME!"
 DirectedAttackBossTaunts = {
  's': [
-  'Have a free sample!',
-  'I see you over there!',
-  'My products beat out all of Toontown!',
-  "Don't think I've skipped you, %(toon)s!"
+  'What do you have against rambling?',
+  "No, %(toons)s', I haven't checked my hate mail today!",
+  "I've become null to your insults!'",
+  "What rubbish!"
  ],
  'm': [
-  "Here's money well spent.",
-  'Hey! Get away from that crane!',
-  'Stop!',
-  '%(toon)s, get over here!'
+  "I will leave to survivors, so no one will walk out with tokens",
+  'What reward would be worth gambling for? Pie Tokens are life!',
+  "Error... it's impossible to spend as much as you toons for rewards",
+  '%(toon)s, are you ready to lose your tokens?'
  ],
  'c': [
-  'These are brand new tables!',
-  "A little water isn't going to affect me!",
-  'Bug off! This is my clubhouse!',
-  "You've ruined my banquet! Now you'll pay!"
+  'You scrubs can never replace me!',
+  "!brainpower !brainpower!",
+  'Why did you have to crash my plotting?!',
+  "Wait, why did you remove's Shim's mod status too?"
  ]
 }
 VPSpinMessages = [
@@ -8615,35 +8615,35 @@ VPSpinMessages = [
 ]
 JumpBossTaunts = {
  's': [
-  'STOP!',
-  'Pay attention to my pitch!',
-  'This is a waste of my time!',
-  'Time to send you back to the playground!'
+  "BOLLOCKS!!!!!"
+  "Don't give that scrub, Nick the views he deserves. Give them to me!",
+  'Join the Eip Nation!',
+  '(Rambling Noises)'
  ],
  'l': [
-  "You're all in contempt of court!"
+  "GIVE ME THIS SERVER! ... NOW!!!!!"
  ],
  'm': [
-  "These Goons weren't free you know!",
-  'HEY, THOSE ARE VINTAGE SAFES!',
-  'This will cost you a lot more than candy!',
-  "I'll buy out Toontown if it means getting rid of you Toons!"
+  "These Goons costed 50 Pie Tokens each!!",
+  'Why do I have such a headache?',
+  'This will cost your wager!',
+  "What makes you think you'll walk out of here with a profit?!"
  ]
 }
 CEOSpeech = [
- "Good evening Cogs, it's an honor having you here tonight in the Bossbot Clubhouse.",
+ "Good evening Mods, it's an honor having you here tonight in the Modbot Clubhouse.",
  'I apologize for sending invitations on such short notice, but your presence is urgent.',
- 'Lately, it appears the Toons have created strategies to fight against us.',
- "This is a sign that each day us Cogs are getting weaker, and they're getting stronger.",
- 'I have gathered you all here today not only to state this problem, but to propose an idea.',
- 'This idea is the same one that was mentioned in the meeting 3 weeks ago, as to hire a new department of employees.',
- 'If we were to do such however, they would be more or less assisting over attacking.',
- 'We also can consider the odds that a department would have to be treated special.',
- 'On another note, business operations are higher than ever.',
- 'Because of this, improvement for HQs will be funded.',
- 'And thus we, the Cog Nation, are striving.',
- 'I am very delighted by this news, I just wanted to thank you all for working so hard for this news.',
- "Wait, what's going on? I can't see but I hear explosions."
+ "Lately, I've been plotting vengeance against Nick if he refuses to mod me back!",
+ "With your support, I believe we can get my mod status back.",
+ "If not though, I hear he's planning to do another Nuzlocke challenge",
+ 'If this rumor is true, I have a perfect plan for revenge.',
+ "Whenever he gets a good reliable pokemon he needs, we'll pay the money to kill it",
+ "I understand this might cost a large amount, but it'll all be worth it in te end",
+ 'If you are still concerned about this financially, you alternatively just send fake donation alerts >;-)',
+ "Nick will constantly have to be checking to see if he's being duped!",
+ 'Together we are strong!',
+ 'Join me! No... join of us. Become one of us! ONE OF US! ONE OF US! ONE OF US!',
+ "Wait, what's going on? Oh no... IT'S A TRAP!!!!!"
 ] # Len of words + 10
 
 CrateRewardMessage1 = 'Nice! You have earned a crate! It will arrive in your mailbox shortly.'
