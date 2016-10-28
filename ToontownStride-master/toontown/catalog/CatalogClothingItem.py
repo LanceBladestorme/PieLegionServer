@@ -291,7 +291,23 @@ ClothingTypes = {101: (ABoysShirt, 'bss1', 40),
  1818: (AGirlsSkirt, 'sa_gs20', 5000),
  1819: (AGirlsSkirt, 'sa_gs21', 5000),
  1820: (AShirt, 'sa_ss55', 5000),
- 1821: (AShirt, 'flannel', 300)}
+ 1821: (AShirt, 'flannel', 300),
+ 1822: (AShirt,
+		'magnezone',
+		10000,
+		(10, 50)),
+ 1823: (AShirt,
+		'pokeball',
+		10000,
+		(10, 50)),
+ 1824: (AShirt,
+		'mewtwo',
+		10000,
+		(10, 50)),
+ 1825: (AShirt,
+		'riolu',
+		10000,
+		(10, 50))}
 
 class CatalogClothingItem(CatalogItem.CatalogItem):
 

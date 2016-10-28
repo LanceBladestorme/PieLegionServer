@@ -919,7 +919,7 @@ def getBuildingTitle(zoneId):
 HQnpcFriends = {
  2001: (ToontownBattleGlobals.HEAL_TRACK, 5, ToontownGlobals.MaxHpLimit, 5),
  2132: (ToontownBattleGlobals.HEAL_TRACK, 5, 70, 4),
- 2121: (ToontownBattleGlobals.HEAL_TRACK, 5, 45, 3),
+ 2121: (ToontownBattleGlobals.HEAL_TRACK, 5, 50, 3),
  2302: (ToontownBattleGlobals.HEAL_TRACK, 5, 100, 4),
  1015: (ToontownBattleGlobals.HEAL_TRACK, 5, 80, 4),
  2011: (ToontownBattleGlobals.TRAP_TRACK, 4, 250, 5),
@@ -958,18 +958,18 @@ HQnpcFriends = {
 }
 
 FOnpcFriends = {
- 7012: (ToontownBattleGlobals.HEAL_TRACK, 3, 10, 0),
- 7013: (ToontownBattleGlobals.HEAL_TRACK, 3, 20, 1),
- 7014: (ToontownBattleGlobals.HEAL_TRACK, 3, 30, 2),
- 7015: (ToontownBattleGlobals.DROP_TRACK, 1, 20, 0),
- 7016: (ToontownBattleGlobals.DROP_TRACK, 2, 35, 1),
+ 7012: (ToontownBattleGlobals.HEAL_TRACK, 3, 40, 2),
+ 7013: (ToontownBattleGlobals.HEAL_TRACK, 3, 40, 2),
+ 7014: (ToontownBattleGlobals.HEAL_TRACK, 3, 40, 2),
+ 7015: (ToontownBattleGlobals.DROP_TRACK, 3, 50, 2),
+ 7016: (ToontownBattleGlobals.DROP_TRACK, 3, 50, 2),
  7017: (ToontownBattleGlobals.DROP_TRACK, 3, 50, 2),
- 7018: (ToontownBattleGlobals.SOUND_TRACK, 1, 10, 0),
- 7019: (ToontownBattleGlobals.SOUND_TRACK, 3, 20, 1),
- 7020: (ToontownBattleGlobals.SOUND_TRACK, 4, 30, 2),
- 7021: (ToontownBattleGlobals.LURE_TRACK, 1, 0, 0),
- 7022: (ToontownBattleGlobals.LURE_TRACK, 1, 0, 1),
- 7023: (ToontownBattleGlobals.LURE_TRACK, 3, 0, 2)
+ 7018: (ToontownBattleGlobals.SOUND_TRACK, 4, 32, 2),
+ 7019: (ToontownBattleGlobals.SOUND_TRACK, 4, 32, 2),
+ 7020: (ToontownBattleGlobals.SOUND_TRACK, 4, 32, 2),
+ 7021: (ToontownBattleGlobals.LURE_TRACK, 1, 0, 2),
+ 7022: (ToontownBattleGlobals.LURE_TRACK, 1, 0, 2),
+ 7023: (ToontownBattleGlobals.LURE_TRACK, 1, 0, 2)
 }
 
 disabledSosCards = ConfigVariableList('disable-sos-card')
