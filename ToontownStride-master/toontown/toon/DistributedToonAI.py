@@ -3086,7 +3086,7 @@ class DistributedToonAI(DistributedPlayerAI.DistributedPlayerAI, DistributedSmoo
                 flags = SuitInvasionGlobals.IFWaiter
             else:
                 flags = 0
-            returnCode = self.doCogInvasion(suitIndex, flags)
+            returnCode = self.doCogInvasion(suitDeptIndex, suitTypeIndex, flags)
         if returnCode:
             if returnCode[0] == 'success':
                 self.air.writeServerEvent('cogSummoned', self.doId, '%s|%s|%s' % (type, suitIndex, self.zoneId))

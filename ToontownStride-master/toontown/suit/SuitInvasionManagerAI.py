@@ -1,5 +1,6 @@
 import time, random
 
+from otp.ai.MagicWordGlobal import *
 from toontown.battle import SuitBattleGlobals
 from toontown.suit import SuitDNA
 from toontown.suit.SuitInvasionGlobals import *
